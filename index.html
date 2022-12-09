@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan HTML DOM</title>
+</head>
+
+<body>
+    <!-- Inline -->
+
+    <!-- demo1 -->
+    <h2>Js Can Change HTML Content</h2>
+    <p id="changeHTML">JS can change HTML content</p>
+    <button type="button" onclick="document.getElementById('changeHTML'). innerHTML='Hello Javascript'">Click Me
+        !</button>
+    <hr>
+    <!-- end demo1 -->
+
+    <!-- demo2 -->
+    <h2>Js Can Change HTML Atribute</h2>
+    <img id="lampu" src="assets/img/lboff.png" width="100" />
+    <button type="button" onclick="document.getElementById('lampu'). src='assets/img/lbon.png'">Turn On</button>
+    <button type="button" onclick="document.getElementById('lampu'). src='assets/img/lboff.png'">Turn Off</button>
+    <hr>
+    <!-- end demo2 -->
+
+    <!-- demo3 -->
+    <h2>Js Can Change CSS Style</h2>
+    <p id="changeCSS">JS Can Change CSS Style</p>
+    <button type="button" onclick="document.getElementById('changeCSS').style.backgroundColor='red'">Change Color
+        !</button>
+    <hr>
+    <!-- end demo3 -->
+
+    <!-- demo4 -->
+    <h2>Js Can Show/Hide HTML Element (CSS)</h2>
+    <p id="hide">JS Can Show/Hide HTML Element</p>
+    <button type="button" onclick="document.getElementById('hide').style.display='none'">Hide</button>
+    <button type="button" onclick="document.getElementById('hide').style.display='block'">Show</button>
+    <!-- end demo4 -->
+
+</body>
+
+</html>
